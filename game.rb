@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'ruby-poker'
+
 class Game
   attr_accessor :players, :deck, :community_cards, :pot, :call_amount, :bb, :hand_number
 
